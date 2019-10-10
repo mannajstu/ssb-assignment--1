@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i,400,700,900&display=swap');
+
+body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-size {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.inline li {
+    display: inline;
+}
+
+.inline li a {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    margin: 6px;
+    text-decoration: none;
+}
+
+.inline li a:hover {
+    background-color: blue;
+    transition: .3s;
+
+}
